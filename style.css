@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding:0;
+}
+.navbar{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  position:sticky;
+  top:0;
+  cursor:pointer;
+
+
+}
+.logo{
+  width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo img{
+  width: 50%;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+.nav-list{
+display:flex;
+align-items: center;
+
+}
+.nav-list li{
+  list-style: none;
+  padding: 40px;
+}
+.nav-list li a{
+text-decoration: none;
+color:orange;
+}
+.nav-list li a:hover{
+  color:aquamarine;
+}
+#right-nav{
+  display: flex;
+}
+#right-nav a{
+text-decoration: none;
+display:flex;
+align-items: center;
+justify-content: flex-end;
+color:orange;
+}
+#right-nav a:hover{
+  color:aquamarine;
+}
+.background{
+  background:rgba(0,0,0,0.7)url('background.jpg');
+  background-size:cover;
+  background-blend-mode: darken;
+}
+.about{
+  height:100vh;
+}
+.main-box{
+  height: 75%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  color:white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+}
+.first-half{
+  width:80%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  
+}
+.second-half{
+  width:20%;
+}
+.second-half img{
+  width:100%;
+  border: 2px solid white;
+  border-radius: 200px;
+  display:block;
+  margin:auto;
+}
+.text-big{
+  font-size: 45px;
+}
+.text-small{
+  font-size: 18px;
+}
+.btn{
+  padding:8px 20px;
+  margin: 7px 15px;
+  border: 2px solid white;
+  border-radius: 15px;
+  font-size: medium;
+  background:none;
+  color:white;
+  cursor:pointer;
+}
+.btn:hover{
+  color:aquamarine;
+}
